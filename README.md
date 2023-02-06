@@ -1,0 +1,2 @@
+# Twilio Lookup v2 for a CSV file
+Looking for an easy way to bulk lookup data for a list of phone numbers? This Python script takes a CSV of phone numbers and outputs a new CSV with carrier data for each number. The data comes from [Twilio Lookup Line Type Intelligence](https://www.twilio.com/docs/lookup/v2-api/line-type-intelligence). The script will convert each phone number to E.164 format so you don't need to worry about that, but please make sure each row contains only 1 phone number and no other characters or you may need to make edits to the script. 
